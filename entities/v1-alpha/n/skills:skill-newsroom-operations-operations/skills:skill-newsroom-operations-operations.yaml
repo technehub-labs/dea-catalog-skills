@@ -1,0 +1,28 @@
+id: 'skills:skill-newsroom-operations-operations'
+type: Skill
+name: Newsroom Operations Operations
+description: >-
+  Capability to run, monitor and maintain newsroom operations environments day to day:
+  operating procedures, routine assurance and continuous improvement of newsroom
+  operations services. Evidenced by recurrence across the media operating models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: media
+tags:
+  - domain-operations
+  - media
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-operations
+  industries:
+    - media
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 17
+    admitted_roles: 2
+    example_role: 'roles:role-newsroom-operations-administrator'
