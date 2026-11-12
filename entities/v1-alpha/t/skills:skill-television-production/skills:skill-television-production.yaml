@@ -1,0 +1,29 @@
+id: 'skills:skill-television-production'
+type: Skill
+name: Television Production
+description: >-
+  Capability to apply television production knowledge, methods and standards: planning,
+  executing and improving television production work so that roleholders can deliver and
+  assure television production outcomes. Evidenced by recurrence across the entertainment
+  operating models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: entertainment
+tags:
+  - domain-capability
+  - entertainment
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - entertainment
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 16
+    admitted_roles: 2
+    example_role: 'roles:role-television-production-administrator'

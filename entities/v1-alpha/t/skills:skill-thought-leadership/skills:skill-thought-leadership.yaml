@@ -1,0 +1,29 @@
+id: 'skills:skill-thought-leadership'
+type: Skill
+name: Thought Leadership
+description: >-
+  Capability to apply thought leadership knowledge, methods and standards: planning,
+  executing and improving thought leadership work so that roleholders can deliver and
+  assure thought leadership outcomes. Evidenced by recurrence across the consulting
+  operating models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: consulting
+tags:
+  - domain-capability
+  - consulting
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - consulting
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 16
+    admitted_roles: 3
+    example_role: 'roles:role-thought-leadership-administrator'

@@ -1,0 +1,29 @@
+id: 'skills:skill-tooling-fixtures'
+type: Skill
+name: Tooling Fixtures
+description: >-
+  Capability to apply tooling fixtures knowledge, methods and standards: planning,
+  executing and improving tooling fixtures work so that roleholders can deliver and assure
+  tooling fixtures outcomes. Evidenced by recurrence across the manufacturing operating
+  models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: manufacturing
+tags:
+  - domain-capability
+  - manufacturing
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - manufacturing
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 16
+    admitted_roles: 2
+    example_role: 'roles:role-tooling-fixtures-administrator'

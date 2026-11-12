@@ -1,0 +1,28 @@
+id: 'skills:skill-vendor-audit'
+type: Skill
+name: Vendor Audit
+description: >-
+  Capability to apply vendor audit knowledge, methods and standards: planning, executing
+  and improving vendor audit work so that roleholders can deliver and assure vendor audit
+  outcomes. Evidenced by recurrence across the audit operating models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: audit
+tags:
+  - domain-capability
+  - audit
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - audit
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 16
+    admitted_roles: 3
+    example_role: 'roles:role-vendor-audit-administrator'
