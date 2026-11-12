@@ -1,0 +1,29 @@
+id: 'skills:skill-ehs-sustainability'
+type: Skill
+name: EHS Sustainability
+description: >-
+  Capability to apply ehs sustainability knowledge, methods and standards: planning,
+  executing and improving ehs sustainability work so that roleholders can deliver and
+  assure ehs sustainability outcomes. Evidenced by recurrence across the manufacturing
+  operating models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: manufacturing
+tags:
+  - domain-capability
+  - manufacturing
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - manufacturing
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 17
+    admitted_roles: 2
+    example_role: 'roles:role-ehs-sustainability-administrator'

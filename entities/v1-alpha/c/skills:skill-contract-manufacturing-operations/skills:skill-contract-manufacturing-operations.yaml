@@ -1,0 +1,29 @@
+id: 'skills:skill-contract-manufacturing-operations'
+type: Skill
+name: Contract Manufacturing Operations
+description: >-
+  Capability to run, monitor and maintain contract manufacturing environments day to day:
+  operating procedures, routine assurance and continuous improvement of contract
+  manufacturing services. Evidenced by recurrence across the manufacturing operating
+  models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: manufacturing
+tags:
+  - domain-operations
+  - manufacturing
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-operations
+  industries:
+    - manufacturing
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 17
+    admitted_roles: 2
+    example_role: 'roles:role-contract-manufacturing-administrator'

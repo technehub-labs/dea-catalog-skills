@@ -1,0 +1,29 @@
+id: 'skills:skill-data-protection-privacy'
+type: Skill
+name: Data Protection Privacy
+description: >-
+  Capability to apply data protection privacy knowledge, methods and standards: planning,
+  executing and improving data protection privacy work so that roleholders can deliver and
+  assure data protection privacy outcomes. Evidenced by recurrence across the
+  legal-regulatory operating models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: legal-regulatory
+tags:
+  - domain-capability
+  - legal-regulatory
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - legal-regulatory
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 17
+    admitted_roles: 2
+    example_role: 'roles:role-data-protection-privacy-administrator'
