@@ -1,0 +1,28 @@
+id: 'skills:skill-ftth-rollout'
+type: Skill
+name: FTTH Rollout
+description: >-
+  Capability to apply ftth rollout knowledge, methods and standards: planning, executing
+  and improving ftth rollout work so that roleholders can deliver and assure ftth rollout
+  outcomes. Evidenced by recurrence across the telecom operating models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: telecom
+tags:
+  - domain-capability
+  - telecom
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - telecom
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 17
+    admitted_roles: 2
+    example_role: 'roles:role-ftth-rollout-administrator'

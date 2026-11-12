@@ -1,0 +1,28 @@
+id: 'skills:skill-wealth-management-operations'
+type: Skill
+name: Wealth Management Operations
+description: >-
+  Capability to run, monitor and maintain wealth management environments day to day:
+  operating procedures, routine assurance and continuous improvement of wealth management
+  services. Evidenced by recurrence across the finance operating models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: finance
+tags:
+  - domain-operations
+  - finance
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-operations
+  industries:
+    - finance
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 16
+    admitted_roles: 2
+    example_role: 'roles:role-wealth-management-administrator'

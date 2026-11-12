@@ -1,0 +1,130 @@
+# Skills register — Legal & Regulatory (CR-DEA-SKL-01)
+industry: legal-regulatory
+title: Legal & Regulatory
+skills:
+  - id: 'skills:skill-administrative-justice'
+    kind: domain-capability
+  - id: 'skills:skill-administrative-justice-operations'
+    kind: domain-operations
+  - id: 'skills:skill-competition-law'
+    kind: domain-capability
+  - id: 'skills:skill-competition-law-operations'
+    kind: domain-operations
+  - id: 'skills:skill-consumer-protection'
+    kind: domain-capability
+  - id: 'skills:skill-consumer-protection-operations'
+    kind: domain-operations
+  - id: 'skills:skill-contract-management'
+    kind: domain-capability
+  - id: 'skills:skill-contract-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-corporate-counsel'
+    kind: domain-capability
+  - id: 'skills:skill-corporate-counsel-operations'
+    kind: domain-operations
+  - id: 'skills:skill-court-administration'
+    kind: domain-capability
+  - id: 'skills:skill-court-administration-operations'
+    kind: domain-operations
+  - id: 'skills:skill-data-protection-privacy'
+    kind: domain-capability
+  - id: 'skills:skill-data-protection-privacy-operations'
+    kind: domain-operations
+  - id: 'skills:skill-employment-law'
+    kind: domain-capability
+  - id: 'skills:skill-employment-law-operations'
+    kind: domain-operations
+  - id: 'skills:skill-energy-regulation'
+    kind: domain-capability
+  - id: 'skills:skill-energy-regulation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-environmental-law'
+    kind: domain-capability
+  - id: 'skills:skill-environmental-law-operations'
+    kind: domain-operations
+  - id: 'skills:skill-ethics-conduct'
+    kind: domain-capability
+  - id: 'skills:skill-ethics-conduct-operations'
+    kind: domain-operations
+  - id: 'skills:skill-financial-regulation'
+    kind: domain-capability
+  - id: 'skills:skill-financial-regulation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-governance-board-affairs'
+    kind: domain-capability
+  - id: 'skills:skill-governance-board-affairs-operations'
+    kind: domain-operations
+  - id: 'skills:skill-health-regulation'
+    kind: domain-capability
+  - id: 'skills:skill-health-regulation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-insolvency-restructuring'
+    kind: domain-capability
+  - id: 'skills:skill-insolvency-restructuring-operations'
+    kind: domain-operations
+  - id: 'skills:skill-intellectual-property'
+    kind: domain-capability
+  - id: 'skills:skill-intellectual-property-operations'
+    kind: domain-operations
+  - id: 'skills:skill-legal-operations'
+    kind: domain-capability
+  - id: 'skills:skill-legal-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-legal-research'
+    kind: domain-capability
+  - id: 'skills:skill-legal-research-operations'
+    kind: domain-operations
+  - id: 'skills:skill-legislative-monitoring'
+    kind: domain-capability
+  - id: 'skills:skill-legislative-monitoring-operations'
+    kind: domain-operations
+  - id: 'skills:skill-licensing-permits'
+    kind: domain-capability
+  - id: 'skills:skill-licensing-permits-operations'
+    kind: domain-operations
+  - id: 'skills:skill-litigation-management'
+    kind: domain-capability
+  - id: 'skills:skill-litigation-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-notary-registries'
+    kind: domain-capability
+  - id: 'skills:skill-notary-registries-operations'
+    kind: domain-operations
+  - id: 'skills:skill-policy-drafting'
+    kind: domain-capability
+  - id: 'skills:skill-policy-drafting-operations'
+    kind: domain-operations
+  - id: 'skills:skill-public-prosecution-liaison'
+    kind: domain-capability
+  - id: 'skills:skill-public-prosecution-liaison-operations'
+    kind: domain-operations
+  - id: 'skills:skill-regulatory-affairs'
+    kind: domain-capability
+  - id: 'skills:skill-regulatory-affairs-operations'
+    kind: domain-operations
+  - id: 'skills:skill-sanctions-advisory'
+    kind: domain-capability
+  - id: 'skills:skill-sanctions-advisory-operations'
+    kind: domain-operations
+  - id: 'skills:skill-standard-setting'
+    kind: domain-capability
+  - id: 'skills:skill-standard-setting-operations'
+    kind: domain-operations
+  - id: 'skills:skill-tax-law'
+    kind: domain-capability
+  - id: 'skills:skill-tax-law-operations'
+    kind: domain-operations
+  - id: 'skills:skill-telecom-regulation'
+    kind: domain-capability
+  - id: 'skills:skill-telecom-regulation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-trade-compliance'
+    kind: domain-capability
+  - id: 'skills:skill-trade-compliance-operations'
+    kind: domain-operations
+counts:
+  capability: 30
+  operations: 30
+demand:
+  batch_edges: 1000
+  admitted_edges: 120

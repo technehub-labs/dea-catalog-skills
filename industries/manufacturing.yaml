@@ -1,0 +1,130 @@
+# Skills register — Manufacturing (CR-DEA-SKL-01)
+industry: manufacturing
+title: Manufacturing
+skills:
+  - id: 'skills:skill-additive-manufacturing'
+    kind: domain-capability
+  - id: 'skills:skill-additive-manufacturing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-assembly-lines'
+    kind: domain-capability
+  - id: 'skills:skill-assembly-lines-operations'
+    kind: domain-operations
+  - id: 'skills:skill-capacity-management'
+    kind: domain-capability
+  - id: 'skills:skill-capacity-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-cnc-machining'
+    kind: domain-capability
+  - id: 'skills:skill-cnc-machining-operations'
+    kind: domain-operations
+  - id: 'skills:skill-contract-manufacturing'
+    kind: domain-capability
+  - id: 'skills:skill-contract-manufacturing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-ehs-sustainability'
+    kind: domain-capability
+  - id: 'skills:skill-ehs-sustainability-operations'
+    kind: domain-operations
+  - id: 'skills:skill-energy-management'
+    kind: domain-capability
+  - id: 'skills:skill-energy-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-factory-automation'
+    kind: domain-capability
+  - id: 'skills:skill-factory-automation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-industrial-engineering'
+    kind: domain-capability
+  - id: 'skills:skill-industrial-engineering-operations'
+    kind: domain-operations
+  - id: 'skills:skill-injection-moulding'
+    kind: domain-capability
+  - id: 'skills:skill-injection-moulding-operations'
+    kind: domain-operations
+  - id: 'skills:skill-lean-manufacturing'
+    kind: domain-capability
+  - id: 'skills:skill-lean-manufacturing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-manufacturing-data-systems'
+    kind: domain-capability
+  - id: 'skills:skill-manufacturing-data-systems-operations'
+    kind: domain-operations
+  - id: 'skills:skill-new-product-introduction'
+    kind: domain-capability
+  - id: 'skills:skill-new-product-introduction-operations'
+    kind: domain-operations
+  - id: 'skills:skill-packaging-operations'
+    kind: domain-capability
+  - id: 'skills:skill-packaging-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-paint-surface-treatment'
+    kind: domain-capability
+  - id: 'skills:skill-paint-surface-treatment-operations'
+    kind: domain-operations
+  - id: 'skills:skill-plant-maintenance'
+    kind: domain-capability
+  - id: 'skills:skill-plant-maintenance-operations'
+    kind: domain-operations
+  - id: 'skills:skill-plant-utilities'
+    kind: domain-capability
+  - id: 'skills:skill-plant-utilities-operations'
+    kind: domain-operations
+  - id: 'skills:skill-procurement'
+    kind: domain-capability
+  - id: 'skills:skill-procurement-operations'
+    kind: domain-operations
+  - id: 'skills:skill-product-industrialization'
+    kind: domain-capability
+  - id: 'skills:skill-product-industrialization-operations'
+    kind: domain-operations
+  - id: 'skills:skill-product-traceability'
+    kind: domain-capability
+  - id: 'skills:skill-product-traceability-operations'
+    kind: domain-operations
+  - id: 'skills:skill-production-operations'
+    kind: domain-capability
+  - id: 'skills:skill-production-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-production-planning'
+    kind: domain-capability
+  - id: 'skills:skill-production-planning-operations'
+    kind: domain-operations
+  - id: 'skills:skill-quality-control'
+    kind: domain-capability
+  - id: 'skills:skill-quality-control-operations'
+    kind: domain-operations
+  - id: 'skills:skill-robotics-integration'
+    kind: domain-capability
+  - id: 'skills:skill-robotics-integration-operations'
+    kind: domain-operations
+  - id: 'skills:skill-scrap-rework'
+    kind: domain-capability
+  - id: 'skills:skill-scrap-rework-operations'
+    kind: domain-operations
+  - id: 'skills:skill-supplier-quality'
+    kind: domain-capability
+  - id: 'skills:skill-supplier-quality-operations'
+    kind: domain-operations
+  - id: 'skills:skill-supply-chain-planning'
+    kind: domain-capability
+  - id: 'skills:skill-supply-chain-planning-operations'
+    kind: domain-operations
+  - id: 'skills:skill-tooling-fixtures'
+    kind: domain-capability
+  - id: 'skills:skill-tooling-fixtures-operations'
+    kind: domain-operations
+  - id: 'skills:skill-welding-fabrication'
+    kind: domain-capability
+  - id: 'skills:skill-welding-fabrication-operations'
+    kind: domain-operations
+  - id: 'skills:skill-workforce-scheduling'
+    kind: domain-capability
+  - id: 'skills:skill-workforce-scheduling-operations'
+    kind: domain-operations
+counts:
+  capability: 30
+  operations: 30
+demand:
+  batch_edges: 1000
+  admitted_edges: 122

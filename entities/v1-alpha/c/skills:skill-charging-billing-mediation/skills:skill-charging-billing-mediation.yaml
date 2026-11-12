@@ -1,0 +1,29 @@
+id: 'skills:skill-charging-billing-mediation'
+type: Skill
+name: Charging Billing Mediation
+description: >-
+  Capability to apply charging billing mediation knowledge, methods and standards:
+  planning, executing and improving charging billing mediation work so that roleholders
+  can deliver and assure charging billing mediation outcomes. Evidenced by recurrence
+  across the telecom operating models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: telecom
+tags:
+  - domain-capability
+  - telecom
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - telecom
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 17
+    admitted_roles: 2
+    example_role: 'roles:role-charging-billing-mediation-administrator'

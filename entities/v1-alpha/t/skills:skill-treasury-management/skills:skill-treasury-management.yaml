@@ -1,0 +1,30 @@
+id: 'skills:skill-treasury-management'
+type: Skill
+name: Treasury Management
+description: >-
+  Capability to apply treasury management knowledge, methods and standards: planning,
+  executing and improving treasury management work so that roleholders can deliver and
+  assure treasury management outcomes. Evidenced by recurrence across the finance
+  operating models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: finance
+tags:
+  - domain-capability
+  - finance
+  - seed-ref
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - finance
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml; ../dea-catalog-roles/entities/v1-alpha/treasury-manager.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 17
+    admitted_roles: 3
+    example_role: 'roles:role-treasury-management-administrator'

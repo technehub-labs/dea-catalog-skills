@@ -1,0 +1,29 @@
+id: 'skills:skill-forensic-accounting'
+type: Skill
+name: Forensic Accounting
+description: >-
+  Capability to apply forensic accounting knowledge, methods and standards: planning,
+  executing and improving forensic accounting work so that roleholders can deliver and
+  assure forensic accounting outcomes. Evidenced by recurrence across the audit operating
+  models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: audit
+tags:
+  - domain-capability
+  - audit
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - audit
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 17
+    admitted_roles: 3
+    example_role: 'roles:role-forensic-accounting-administrator'

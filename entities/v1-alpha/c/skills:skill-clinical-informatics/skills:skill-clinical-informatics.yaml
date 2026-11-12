@@ -1,0 +1,30 @@
+id: 'skills:skill-clinical-informatics'
+type: Skill
+name: Clinical Informatics
+description: >-
+  Capability to apply clinical informatics knowledge, methods and standards: planning,
+  executing and improving clinical informatics work so that roleholders can deliver and
+  assure clinical informatics outcomes. Evidenced by recurrence across the healthcare
+  operating models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: healthcare
+tags:
+  - domain-capability
+  - healthcare
+  - seed-ref
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - healthcare
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml; ../dea-catalog-roles/entities/v1-alpha/clinical-informaticist.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 18
+    admitted_roles: 3
+    example_role: 'roles:role-clinical-informatics-administrator'

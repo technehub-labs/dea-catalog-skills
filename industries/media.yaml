@@ -1,0 +1,130 @@
+# Skills register — Media (CR-DEA-SKL-01)
+industry: media
+title: Media
+skills:
+  - id: 'skills:skill-advertising-operations'
+    kind: domain-capability
+  - id: 'skills:skill-advertising-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-audience-analytics'
+    kind: domain-capability
+  - id: 'skills:skill-audience-analytics-operations'
+    kind: domain-operations
+  - id: 'skills:skill-audience-development'
+    kind: domain-capability
+  - id: 'skills:skill-audience-development-operations'
+    kind: domain-operations
+  - id: 'skills:skill-brand-partnerships'
+    kind: domain-capability
+  - id: 'skills:skill-brand-partnerships-operations'
+    kind: domain-operations
+  - id: 'skills:skill-broadcast-operations'
+    kind: domain-capability
+  - id: 'skills:skill-broadcast-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-content-compliance'
+    kind: domain-capability
+  - id: 'skills:skill-content-compliance-operations'
+    kind: domain-operations
+  - id: 'skills:skill-content-localization'
+    kind: domain-capability
+  - id: 'skills:skill-content-localization-operations'
+    kind: domain-operations
+  - id: 'skills:skill-content-production'
+    kind: domain-capability
+  - id: 'skills:skill-content-production-operations'
+    kind: domain-operations
+  - id: 'skills:skill-content-rights-licensing'
+    kind: domain-capability
+  - id: 'skills:skill-content-rights-licensing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-creator-partnerships'
+    kind: domain-capability
+  - id: 'skills:skill-creator-partnerships-operations'
+    kind: domain-operations
+  - id: 'skills:skill-digital-asset-management'
+    kind: domain-capability
+  - id: 'skills:skill-digital-asset-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-editorial-standards'
+    kind: domain-capability
+  - id: 'skills:skill-editorial-standards-operations'
+    kind: domain-operations
+  - id: 'skills:skill-gaming-content'
+    kind: domain-capability
+  - id: 'skills:skill-gaming-content-operations'
+    kind: domain-operations
+  - id: 'skills:skill-interactive-media'
+    kind: domain-capability
+  - id: 'skills:skill-interactive-media-operations'
+    kind: domain-operations
+  - id: 'skills:skill-live-event-production'
+    kind: domain-capability
+  - id: 'skills:skill-live-event-production-operations'
+    kind: domain-operations
+  - id: 'skills:skill-media-archive-management'
+    kind: domain-capability
+  - id: 'skills:skill-media-archive-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-media-supply-chain'
+    kind: domain-capability
+  - id: 'skills:skill-media-supply-chain-operations'
+    kind: domain-operations
+  - id: 'skills:skill-metadata-cataloguing'
+    kind: domain-capability
+  - id: 'skills:skill-metadata-cataloguing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-newsroom-operations'
+    kind: domain-capability
+  - id: 'skills:skill-newsroom-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-ott-distribution'
+    kind: domain-capability
+  - id: 'skills:skill-ott-distribution-operations'
+    kind: domain-operations
+  - id: 'skills:skill-photojournalism'
+    kind: domain-capability
+  - id: 'skills:skill-photojournalism-operations'
+    kind: domain-operations
+  - id: 'skills:skill-podcast-production'
+    kind: domain-capability
+  - id: 'skills:skill-podcast-production-operations'
+    kind: domain-operations
+  - id: 'skills:skill-post-production'
+    kind: domain-capability
+  - id: 'skills:skill-post-production-operations'
+    kind: domain-operations
+  - id: 'skills:skill-print-publishing'
+    kind: domain-capability
+  - id: 'skills:skill-print-publishing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-programme-scheduling'
+    kind: domain-capability
+  - id: 'skills:skill-programme-scheduling-operations'
+    kind: domain-operations
+  - id: 'skills:skill-social-media-publishing'
+    kind: domain-capability
+  - id: 'skills:skill-social-media-publishing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-studios-facilities'
+    kind: domain-capability
+  - id: 'skills:skill-studios-facilities-operations'
+    kind: domain-operations
+  - id: 'skills:skill-subscriber-growth'
+    kind: domain-capability
+  - id: 'skills:skill-subscriber-growth-operations'
+    kind: domain-operations
+  - id: 'skills:skill-transcription-captioning'
+    kind: domain-capability
+  - id: 'skills:skill-transcription-captioning-operations'
+    kind: domain-operations
+  - id: 'skills:skill-video-streaming-platforms'
+    kind: domain-capability
+  - id: 'skills:skill-video-streaming-platforms-operations'
+    kind: domain-operations
+counts:
+  capability: 30
+  operations: 30
+demand:
+  batch_edges: 1000
+  admitted_edges: 120

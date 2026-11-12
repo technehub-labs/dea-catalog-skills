@@ -1,0 +1,130 @@
+# Skills register — Audit & Assurance (CR-DEA-SKL-01)
+industry: audit
+title: Audit & Assurance
+skills:
+  - id: 'skills:skill-assurance-analytics'
+    kind: domain-capability
+  - id: 'skills:skill-assurance-analytics-operations'
+    kind: domain-operations
+  - id: 'skills:skill-assurance-technology'
+    kind: domain-capability
+  - id: 'skills:skill-assurance-technology-operations'
+    kind: domain-operations
+  - id: 'skills:skill-audit-data-analytics'
+    kind: domain-capability
+  - id: 'skills:skill-audit-data-analytics-operations'
+    kind: domain-operations
+  - id: 'skills:skill-audit-methodology'
+    kind: domain-capability
+  - id: 'skills:skill-audit-methodology-operations'
+    kind: domain-operations
+  - id: 'skills:skill-audit-planning'
+    kind: domain-capability
+  - id: 'skills:skill-audit-planning-operations'
+    kind: domain-operations
+  - id: 'skills:skill-audit-reporting'
+    kind: domain-capability
+  - id: 'skills:skill-audit-reporting-operations'
+    kind: domain-operations
+  - id: 'skills:skill-compliance-testing'
+    kind: domain-capability
+  - id: 'skills:skill-compliance-testing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-continuous-auditing'
+    kind: domain-capability
+  - id: 'skills:skill-continuous-auditing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-control-self-assessment'
+    kind: domain-capability
+  - id: 'skills:skill-control-self-assessment-operations'
+    kind: domain-operations
+  - id: 'skills:skill-engagement-quality'
+    kind: domain-capability
+  - id: 'skills:skill-engagement-quality-operations'
+    kind: domain-operations
+  - id: 'skills:skill-external-audit'
+    kind: domain-capability
+  - id: 'skills:skill-external-audit-operations'
+    kind: domain-operations
+  - id: 'skills:skill-financial-attestation'
+    kind: domain-capability
+  - id: 'skills:skill-financial-attestation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-forensic-accounting'
+    kind: domain-capability
+  - id: 'skills:skill-forensic-accounting-operations'
+    kind: domain-operations
+  - id: 'skills:skill-fraud-examinations'
+    kind: domain-capability
+  - id: 'skills:skill-fraud-examinations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-governance-reviews'
+    kind: domain-capability
+  - id: 'skills:skill-governance-reviews-operations'
+    kind: domain-operations
+  - id: 'skills:skill-internal-audit'
+    kind: domain-capability
+  - id: 'skills:skill-internal-audit-operations'
+    kind: domain-operations
+  - id: 'skills:skill-internal-controls'
+    kind: domain-capability
+  - id: 'skills:skill-internal-controls-operations'
+    kind: domain-operations
+  - id: 'skills:skill-investigations'
+    kind: domain-capability
+  - id: 'skills:skill-investigations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-it-audit'
+    kind: domain-capability
+  - id: 'skills:skill-it-audit-operations'
+    kind: domain-operations
+  - id: 'skills:skill-model-validation'
+    kind: domain-capability
+  - id: 'skills:skill-model-validation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-operational-reviews'
+    kind: domain-capability
+  - id: 'skills:skill-operational-reviews-operations'
+    kind: domain-operations
+  - id: 'skills:skill-performance-auditing'
+    kind: domain-capability
+  - id: 'skills:skill-performance-auditing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-process-auditing'
+    kind: domain-capability
+  - id: 'skills:skill-process-auditing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-quality-assurance-reviews'
+    kind: domain-capability
+  - id: 'skills:skill-quality-assurance-reviews-operations'
+    kind: domain-operations
+  - id: 'skills:skill-regulatory-examinations'
+    kind: domain-capability
+  - id: 'skills:skill-regulatory-examinations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-risk-assessment'
+    kind: domain-capability
+  - id: 'skills:skill-risk-assessment-operations'
+    kind: domain-operations
+  - id: 'skills:skill-sustainability-assurance'
+    kind: domain-capability
+  - id: 'skills:skill-sustainability-assurance-operations'
+    kind: domain-operations
+  - id: 'skills:skill-tax-audit'
+    kind: domain-capability
+  - id: 'skills:skill-tax-audit-operations'
+    kind: domain-operations
+  - id: 'skills:skill-third-party-risk-reviews'
+    kind: domain-capability
+  - id: 'skills:skill-third-party-risk-reviews-operations'
+    kind: domain-operations
+  - id: 'skills:skill-vendor-audit'
+    kind: domain-capability
+  - id: 'skills:skill-vendor-audit-operations'
+    kind: domain-operations
+counts:
+  capability: 30
+  operations: 30
+demand:
+  batch_edges: 1000
+  admitted_edges: 180

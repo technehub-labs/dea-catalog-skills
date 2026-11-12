@@ -1,0 +1,29 @@
+id: 'skills:skill-sustainability-assurance-operations'
+type: Skill
+name: Sustainability Assurance Operations
+description: >-
+  Capability to run, monitor and maintain sustainability assurance environments day to
+  day: operating procedures, routine assurance and continuous improvement of
+  sustainability assurance services. Evidenced by recurrence across the audit operating
+  models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: audit
+tags:
+  - domain-operations
+  - audit
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-operations
+  industries:
+    - audit
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 16
+    admitted_roles: 3
+    example_role: 'roles:role-sustainability-assurance-administrator'

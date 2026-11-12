@@ -1,0 +1,130 @@
+# Skills register — Entertainment (CR-DEA-SKL-01)
+industry: entertainment
+title: Entertainment
+skills:
+  - id: 'skills:skill-animation'
+    kind: domain-capability
+  - id: 'skills:skill-animation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-awards-campaigns'
+    kind: domain-capability
+  - id: 'skills:skill-awards-campaigns-operations'
+    kind: domain-operations
+  - id: 'skills:skill-casting'
+    kind: domain-capability
+  - id: 'skills:skill-casting-operations'
+    kind: domain-operations
+  - id: 'skills:skill-celebrity-brand-partnerships'
+    kind: domain-capability
+  - id: 'skills:skill-celebrity-brand-partnerships-operations'
+    kind: domain-operations
+  - id: 'skills:skill-character-design'
+    kind: domain-capability
+  - id: 'skills:skill-character-design-operations'
+    kind: domain-operations
+  - id: 'skills:skill-digital-content-creation'
+    kind: domain-capability
+  - id: 'skills:skill-digital-content-creation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-fan-engagement'
+    kind: domain-capability
+  - id: 'skills:skill-fan-engagement-operations'
+    kind: domain-operations
+  - id: 'skills:skill-festival-operations'
+    kind: domain-capability
+  - id: 'skills:skill-festival-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-film-production'
+    kind: domain-capability
+  - id: 'skills:skill-film-production-operations'
+    kind: domain-operations
+  - id: 'skills:skill-game-development'
+    kind: domain-capability
+  - id: 'skills:skill-game-development-operations'
+    kind: domain-operations
+  - id: 'skills:skill-immersive-experiences'
+    kind: domain-capability
+  - id: 'skills:skill-immersive-experiences-operations'
+    kind: domain-operations
+  - id: 'skills:skill-live-events-touring'
+    kind: domain-capability
+  - id: 'skills:skill-live-events-touring-operations'
+    kind: domain-operations
+  - id: 'skills:skill-location-scouting'
+    kind: domain-capability
+  - id: 'skills:skill-location-scouting-operations'
+    kind: domain-operations
+  - id: 'skills:skill-merchandising'
+    kind: domain-capability
+  - id: 'skills:skill-merchandising-operations'
+    kind: domain-operations
+  - id: 'skills:skill-music-publishing'
+    kind: domain-capability
+  - id: 'skills:skill-music-publishing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-post-production-sound'
+    kind: domain-capability
+  - id: 'skills:skill-post-production-sound-operations'
+    kind: domain-operations
+  - id: 'skills:skill-production-finance'
+    kind: domain-capability
+  - id: 'skills:skill-production-finance-operations'
+    kind: domain-operations
+  - id: 'skills:skill-script-development'
+    kind: domain-capability
+  - id: 'skills:skill-script-development-operations'
+    kind: domain-operations
+  - id: 'skills:skill-stage-design'
+    kind: domain-capability
+  - id: 'skills:skill-stage-design-operations'
+    kind: domain-operations
+  - id: 'skills:skill-streaming-content-acquisition'
+    kind: domain-capability
+  - id: 'skills:skill-streaming-content-acquisition-operations'
+    kind: domain-operations
+  - id: 'skills:skill-stunt-coordination'
+    kind: domain-capability
+  - id: 'skills:skill-stunt-coordination-operations'
+    kind: domain-operations
+  - id: 'skills:skill-talent-management'
+    kind: domain-capability
+  - id: 'skills:skill-talent-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-talent-recruitment'
+    kind: domain-capability
+  - id: 'skills:skill-talent-recruitment-operations'
+    kind: domain-operations
+  - id: 'skills:skill-television-production'
+    kind: domain-capability
+  - id: 'skills:skill-television-production-operations'
+    kind: domain-operations
+  - id: 'skills:skill-theatre-operations'
+    kind: domain-capability
+  - id: 'skills:skill-theatre-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-theme-park-operations'
+    kind: domain-capability
+  - id: 'skills:skill-theme-park-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-touring-logistics'
+    kind: domain-capability
+  - id: 'skills:skill-touring-logistics-operations'
+    kind: domain-operations
+  - id: 'skills:skill-venue-programming'
+    kind: domain-capability
+  - id: 'skills:skill-venue-programming-operations'
+    kind: domain-operations
+  - id: 'skills:skill-visual-effects'
+    kind: domain-capability
+  - id: 'skills:skill-visual-effects-operations'
+    kind: domain-operations
+  - id: 'skills:skill-wardrobe-costuming'
+    kind: domain-capability
+  - id: 'skills:skill-wardrobe-costuming-operations'
+    kind: domain-operations
+counts:
+  capability: 30
+  operations: 30
+demand:
+  batch_edges: 1000
+  admitted_edges: 120

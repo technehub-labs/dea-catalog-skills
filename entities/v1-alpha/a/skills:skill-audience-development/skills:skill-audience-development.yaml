@@ -1,0 +1,29 @@
+id: 'skills:skill-audience-development'
+type: Skill
+name: Audience Development
+description: >-
+  Capability to apply audience development knowledge, methods and standards: planning,
+  executing and improving audience development work so that roleholders can deliver and
+  assure audience development outcomes. Evidenced by recurrence across the media operating
+  models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: media
+tags:
+  - domain-capability
+  - media
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - media
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 17
+    admitted_roles: 2
+    example_role: 'roles:role-audience-development-administrator'

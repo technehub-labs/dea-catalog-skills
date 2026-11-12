@@ -1,0 +1,130 @@
+# Skills register — Finance & Banking (CR-DEA-SKL-01)
+industry: finance
+title: Finance & Banking
+skills:
+  - id: 'skills:skill-aml-sanctions'
+    kind: domain-capability
+  - id: 'skills:skill-aml-sanctions-operations'
+    kind: domain-operations
+  - id: 'skills:skill-asset-servicing'
+    kind: domain-capability
+  - id: 'skills:skill-asset-servicing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-capital-management'
+    kind: domain-capability
+  - id: 'skills:skill-capital-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-card-operations'
+    kind: domain-capability
+  - id: 'skills:skill-card-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-clearing-house-operations'
+    kind: domain-capability
+  - id: 'skills:skill-clearing-house-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-core-banking-systems'
+    kind: domain-capability
+  - id: 'skills:skill-core-banking-systems-operations'
+    kind: domain-operations
+  - id: 'skills:skill-corporate-lending'
+    kind: domain-capability
+  - id: 'skills:skill-corporate-lending-operations'
+    kind: domain-operations
+  - id: 'skills:skill-credit-risk'
+    kind: domain-capability
+  - id: 'skills:skill-credit-risk-operations'
+    kind: domain-operations
+  - id: 'skills:skill-custody-settlement'
+    kind: domain-capability
+  - id: 'skills:skill-custody-settlement-operations'
+    kind: domain-operations
+  - id: 'skills:skill-customer-kyc'
+    kind: domain-capability
+  - id: 'skills:skill-customer-kyc-operations'
+    kind: domain-operations
+  - id: 'skills:skill-digital-banking-channels'
+    kind: domain-capability
+  - id: 'skills:skill-digital-banking-channels-operations'
+    kind: domain-operations
+  - id: 'skills:skill-financial-accounting'
+    kind: domain-capability
+  - id: 'skills:skill-financial-accounting-operations'
+    kind: domain-operations
+  - id: 'skills:skill-financial-crime-compliance'
+    kind: domain-capability
+  - id: 'skills:skill-financial-crime-compliance-operations'
+    kind: domain-operations
+  - id: 'skills:skill-fraud-risk-management'
+    kind: domain-capability
+  - id: 'skills:skill-fraud-risk-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-fund-administration'
+    kind: domain-capability
+  - id: 'skills:skill-fund-administration-operations'
+    kind: domain-operations
+  - id: 'skills:skill-insurance-operations'
+    kind: domain-capability
+  - id: 'skills:skill-insurance-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-investor-relations'
+    kind: domain-capability
+  - id: 'skills:skill-investor-relations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-islamic-finance'
+    kind: domain-capability
+  - id: 'skills:skill-islamic-finance-operations'
+    kind: domain-operations
+  - id: 'skills:skill-liquidity-management'
+    kind: domain-capability
+  - id: 'skills:skill-liquidity-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-loan-origination'
+    kind: domain-capability
+  - id: 'skills:skill-loan-origination-operations'
+    kind: domain-operations
+  - id: 'skills:skill-market-risk'
+    kind: domain-capability
+  - id: 'skills:skill-market-risk-operations'
+    kind: domain-operations
+  - id: 'skills:skill-mortgage-servicing'
+    kind: domain-capability
+  - id: 'skills:skill-mortgage-servicing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-open-banking-apis'
+    kind: domain-capability
+  - id: 'skills:skill-open-banking-apis-operations'
+    kind: domain-operations
+  - id: 'skills:skill-payment-processing'
+    kind: domain-capability
+  - id: 'skills:skill-payment-processing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-pension-administration'
+    kind: domain-capability
+  - id: 'skills:skill-pension-administration-operations'
+    kind: domain-operations
+  - id: 'skills:skill-regulatory-reporting'
+    kind: domain-capability
+  - id: 'skills:skill-regulatory-reporting-operations'
+    kind: domain-operations
+  - id: 'skills:skill-retail-banking-operations'
+    kind: domain-capability
+  - id: 'skills:skill-retail-banking-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-trade-finance'
+    kind: domain-capability
+  - id: 'skills:skill-trade-finance-operations'
+    kind: domain-operations
+  - id: 'skills:skill-treasury-management'
+    kind: domain-capability
+  - id: 'skills:skill-treasury-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-wealth-management'
+    kind: domain-capability
+  - id: 'skills:skill-wealth-management-operations'
+    kind: domain-operations
+counts:
+  capability: 30
+  operations: 30
+demand:
+  batch_edges: 1000
+  admitted_edges: 124

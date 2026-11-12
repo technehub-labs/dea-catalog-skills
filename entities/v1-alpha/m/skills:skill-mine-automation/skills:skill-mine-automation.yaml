@@ -1,0 +1,28 @@
+id: 'skills:skill-mine-automation'
+type: Skill
+name: Mine Automation
+description: >-
+  Capability to apply mine automation knowledge, methods and standards: planning,
+  executing and improving mine automation work so that roleholders can deliver and assure
+  mine automation outcomes. Evidenced by recurrence across the mining operating models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: mining
+tags:
+  - domain-capability
+  - mining
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - mining
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 17
+    admitted_roles: 2
+    example_role: 'roles:role-mine-automation-administrator'

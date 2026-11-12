@@ -1,0 +1,29 @@
+id: 'skills:skill-internal-controls'
+type: Skill
+name: Internal Controls
+description: >-
+  Capability to apply internal controls knowledge, methods and standards: planning,
+  executing and improving internal controls work so that roleholders can deliver and
+  assure internal controls outcomes. Evidenced by recurrence across the audit operating
+  models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: audit
+tags:
+  - domain-capability
+  - audit
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - audit
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 17
+    admitted_roles: 3
+    example_role: 'roles:role-internal-controls-administrator'

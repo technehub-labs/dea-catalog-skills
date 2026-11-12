@@ -1,0 +1,29 @@
+id: 'skills:skill-audit-data-analytics'
+type: Skill
+name: Audit Data Analytics
+description: >-
+  Capability to apply audit data analytics knowledge, methods and standards: planning,
+  executing and improving audit data analytics work so that roleholders can deliver and
+  assure audit data analytics outcomes. Evidenced by recurrence across the audit operating
+  models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: audit
+tags:
+  - domain-capability
+  - audit
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - audit
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 17
+    admitted_roles: 3
+    example_role: 'roles:role-audit-data-analytics-administrator'

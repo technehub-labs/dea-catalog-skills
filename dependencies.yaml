@@ -1,0 +1,28 @@
+# Dependencies — Skill (SKL)
+# Cross-catalog edges defined by the OpenDEAM v0.3.0 model.
+
+model_relationships:
+  - from_entity: dea:entity-skill
+    from_alias: SKL
+    to_entity: dea:entity-role
+    to_alias: ROL
+    label: required by
+    rel_type: dependency
+    cardinality: 0..N:0..N
+    catalog: technehub-labs/dea-catalog-roles
+    status: partially-resolvable
+    counts:
+      batch_edges: 12023
+      resolvable_now: 2473
+      pending: 9550
+    note: >-
+      Stored instance edges live on the role side (source role, target
+      skill, relationship_type: requires) per CR-2 S7/S8: canonical
+      direction is source-to-target and inverse views are generated,
+      never stored. Of the 12023 required-by edges asserted by the
+      6000-role ingestion batch, 2473 resolve against the 1225 roles
+      admitted to date in dea-catalog-roles; the remaining 9550 go
+      pending until the outstanding candidate roles are admitted via CR.
+      Role-side references must resolve against this catalog's published
+      ids (scripts/check_cross_catalog_refs.py in the roles repo, updated
+      to probe id-derived paths per CR-DEA-ROL-24).

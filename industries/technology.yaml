@@ -1,0 +1,130 @@
+# Skills register — Technology (CR-DEA-SKL-01)
+industry: technology
+title: Technology
+skills:
+  - id: 'skills:skill-api-management'
+    kind: domain-capability
+  - id: 'skills:skill-api-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-application-portfolio'
+    kind: domain-capability
+  - id: 'skills:skill-application-portfolio-operations'
+    kind: domain-operations
+  - id: 'skills:skill-automation-rpa'
+    kind: domain-capability
+  - id: 'skills:skill-automation-rpa-operations'
+    kind: domain-operations
+  - id: 'skills:skill-cloud-infrastructure'
+    kind: domain-capability
+  - id: 'skills:skill-cloud-infrastructure-operations'
+    kind: domain-operations
+  - id: 'skills:skill-cybersecurity-operations'
+    kind: domain-capability
+  - id: 'skills:skill-cybersecurity-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-data-engineering'
+    kind: domain-capability
+  - id: 'skills:skill-data-engineering-operations'
+    kind: domain-operations
+  - id: 'skills:skill-data-governance'
+    kind: domain-capability
+  - id: 'skills:skill-data-governance-operations'
+    kind: domain-operations
+  - id: 'skills:skill-developer-experience'
+    kind: domain-capability
+  - id: 'skills:skill-developer-experience-operations'
+    kind: domain-operations
+  - id: 'skills:skill-digital-workplace'
+    kind: domain-capability
+  - id: 'skills:skill-digital-workplace-operations'
+    kind: domain-operations
+  - id: 'skills:skill-edge-iot-solutions'
+    kind: domain-capability
+  - id: 'skills:skill-edge-iot-solutions-operations'
+    kind: domain-operations
+  - id: 'skills:skill-end-user-computing'
+    kind: domain-capability
+  - id: 'skills:skill-end-user-computing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-enterprise-architecture'
+    kind: domain-capability
+  - id: 'skills:skill-enterprise-architecture-operations'
+    kind: domain-operations
+  - id: 'skills:skill-identity-access-management'
+    kind: domain-capability
+  - id: 'skills:skill-identity-access-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-it-service-management'
+    kind: domain-capability
+  - id: 'skills:skill-it-service-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-it-vendor-management'
+    kind: domain-capability
+  - id: 'skills:skill-it-vendor-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-machine-learning-systems'
+    kind: domain-capability
+  - id: 'skills:skill-machine-learning-systems-operations'
+    kind: domain-operations
+  - id: 'skills:skill-middleware-platforms'
+    kind: domain-capability
+  - id: 'skills:skill-middleware-platforms-operations'
+    kind: domain-operations
+  - id: 'skills:skill-mobile-engineering'
+    kind: domain-capability
+  - id: 'skills:skill-mobile-engineering-operations'
+    kind: domain-operations
+  - id: 'skills:skill-network-operations-centre'
+    kind: domain-capability
+  - id: 'skills:skill-network-operations-centre-operations'
+    kind: domain-operations
+  - id: 'skills:skill-observability'
+    kind: domain-capability
+  - id: 'skills:skill-observability-operations'
+    kind: domain-operations
+  - id: 'skills:skill-open-source-programs'
+    kind: domain-capability
+  - id: 'skills:skill-open-source-programs-operations'
+    kind: domain-operations
+  - id: 'skills:skill-platform-engineering'
+    kind: domain-capability
+  - id: 'skills:skill-platform-engineering-operations'
+    kind: domain-operations
+  - id: 'skills:skill-product-security'
+    kind: domain-capability
+  - id: 'skills:skill-product-security-operations'
+    kind: domain-operations
+  - id: 'skills:skill-quantum-computing-initiatives'
+    kind: domain-capability
+  - id: 'skills:skill-quantum-computing-initiatives-operations'
+    kind: domain-operations
+  - id: 'skills:skill-site-reliability'
+    kind: domain-capability
+  - id: 'skills:skill-site-reliability-operations'
+    kind: domain-operations
+  - id: 'skills:skill-software-engineering'
+    kind: domain-capability
+  - id: 'skills:skill-software-engineering-operations'
+    kind: domain-operations
+  - id: 'skills:skill-storage-backup'
+    kind: domain-capability
+  - id: 'skills:skill-storage-backup-operations'
+    kind: domain-operations
+  - id: 'skills:skill-systems-integration'
+    kind: domain-capability
+  - id: 'skills:skill-systems-integration-operations'
+    kind: domain-operations
+  - id: 'skills:skill-technology-incubation'
+    kind: domain-capability
+  - id: 'skills:skill-technology-incubation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-technology-risk'
+    kind: domain-capability
+  - id: 'skills:skill-technology-risk-operations'
+    kind: domain-operations
+counts:
+  capability: 30
+  operations: 30
+demand:
+  batch_edges: 1000
+  admitted_edges: 1000

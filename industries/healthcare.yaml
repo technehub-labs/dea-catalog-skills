@@ -1,0 +1,130 @@
+# Skills register — Healthcare (CR-DEA-SKL-01)
+industry: healthcare
+title: Healthcare
+skills:
+  - id: 'skills:skill-biomedical-engineering'
+    kind: domain-capability
+  - id: 'skills:skill-biomedical-engineering-operations'
+    kind: domain-operations
+  - id: 'skills:skill-blood-bank-services'
+    kind: domain-capability
+  - id: 'skills:skill-blood-bank-services-operations'
+    kind: domain-operations
+  - id: 'skills:skill-care-coordination'
+    kind: domain-capability
+  - id: 'skills:skill-care-coordination-operations'
+    kind: domain-operations
+  - id: 'skills:skill-clinical-governance'
+    kind: domain-capability
+  - id: 'skills:skill-clinical-governance-operations'
+    kind: domain-operations
+  - id: 'skills:skill-clinical-informatics'
+    kind: domain-capability
+  - id: 'skills:skill-clinical-informatics-operations'
+    kind: domain-operations
+  - id: 'skills:skill-clinical-operations'
+    kind: domain-capability
+  - id: 'skills:skill-clinical-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-clinical-trials'
+    kind: domain-capability
+  - id: 'skills:skill-clinical-trials-operations'
+    kind: domain-operations
+  - id: 'skills:skill-community-health-outreach'
+    kind: domain-capability
+  - id: 'skills:skill-community-health-outreach-operations'
+    kind: domain-operations
+  - id: 'skills:skill-diagnostic-imaging'
+    kind: domain-capability
+  - id: 'skills:skill-diagnostic-imaging-operations'
+    kind: domain-operations
+  - id: 'skills:skill-emergency-care'
+    kind: domain-capability
+  - id: 'skills:skill-emergency-care-operations'
+    kind: domain-operations
+  - id: 'skills:skill-genomics-services'
+    kind: domain-capability
+  - id: 'skills:skill-genomics-services-operations'
+    kind: domain-operations
+  - id: 'skills:skill-healthcare-revenue-cycle'
+    kind: domain-capability
+  - id: 'skills:skill-healthcare-revenue-cycle-operations'
+    kind: domain-operations
+  - id: 'skills:skill-home-care-services'
+    kind: domain-capability
+  - id: 'skills:skill-home-care-services-operations'
+    kind: domain-operations
+  - id: 'skills:skill-infection-prevention'
+    kind: domain-capability
+  - id: 'skills:skill-infection-prevention-operations'
+    kind: domain-operations
+  - id: 'skills:skill-laboratory-services'
+    kind: domain-capability
+  - id: 'skills:skill-laboratory-services-operations'
+    kind: domain-operations
+  - id: 'skills:skill-medical-coding-billing'
+    kind: domain-capability
+  - id: 'skills:skill-medical-coding-billing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-medical-staff-credentialing'
+    kind: domain-capability
+  - id: 'skills:skill-medical-staff-credentialing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-medical-supply-chain'
+    kind: domain-capability
+  - id: 'skills:skill-medical-supply-chain-operations'
+    kind: domain-operations
+  - id: 'skills:skill-mental-health-services'
+    kind: domain-capability
+  - id: 'skills:skill-mental-health-services-operations'
+    kind: domain-operations
+  - id: 'skills:skill-nursing-workforce'
+    kind: domain-capability
+  - id: 'skills:skill-nursing-workforce-operations'
+    kind: domain-operations
+  - id: 'skills:skill-patient-access'
+    kind: domain-capability
+  - id: 'skills:skill-patient-access-operations'
+    kind: domain-operations
+  - id: 'skills:skill-patient-experience'
+    kind: domain-capability
+  - id: 'skills:skill-patient-experience-operations'
+    kind: domain-operations
+  - id: 'skills:skill-patient-safety'
+    kind: domain-capability
+  - id: 'skills:skill-patient-safety-operations'
+    kind: domain-operations
+  - id: 'skills:skill-pharmacy-operations'
+    kind: domain-capability
+  - id: 'skills:skill-pharmacy-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-population-health'
+    kind: domain-capability
+  - id: 'skills:skill-population-health-operations'
+    kind: domain-operations
+  - id: 'skills:skill-primary-care'
+    kind: domain-capability
+  - id: 'skills:skill-primary-care-operations'
+    kind: domain-operations
+  - id: 'skills:skill-regulatory-affairs-medical-devices'
+    kind: domain-capability
+  - id: 'skills:skill-regulatory-affairs-medical-devices-operations'
+    kind: domain-operations
+  - id: 'skills:skill-rehabilitation-services'
+    kind: domain-capability
+  - id: 'skills:skill-rehabilitation-services-operations'
+    kind: domain-operations
+  - id: 'skills:skill-surgical-services'
+    kind: domain-capability
+  - id: 'skills:skill-surgical-services-operations'
+    kind: domain-operations
+  - id: 'skills:skill-telehealth'
+    kind: domain-capability
+  - id: 'skills:skill-telehealth-operations'
+    kind: domain-operations
+counts:
+  capability: 30
+  operations: 30
+demand:
+  batch_edges: 1000
+  admitted_edges: 124

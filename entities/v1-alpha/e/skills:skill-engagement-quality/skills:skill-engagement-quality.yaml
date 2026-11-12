@@ -1,0 +1,29 @@
+id: 'skills:skill-engagement-quality'
+type: Skill
+name: Engagement Quality
+description: >-
+  Capability to apply engagement quality knowledge, methods and standards: planning,
+  executing and improving engagement quality work so that roleholders can deliver and
+  assure engagement quality outcomes. Evidenced by recurrence across the audit operating
+  models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: audit
+tags:
+  - domain-capability
+  - audit
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - audit
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 17
+    admitted_roles: 3
+    example_role: 'roles:role-engagement-quality-administrator'

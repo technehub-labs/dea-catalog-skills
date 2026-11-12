@@ -1,0 +1,29 @@
+id: 'skills:skill-venue-programming'
+type: Skill
+name: Venue Programming
+description: >-
+  Capability to apply venue programming knowledge, methods and standards: planning,
+  executing and improving venue programming work so that roleholders can deliver and
+  assure venue programming outcomes. Evidenced by recurrence across the entertainment
+  operating models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: entertainment
+tags:
+  - domain-capability
+  - entertainment
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - entertainment
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 16
+    admitted_roles: 2
+    example_role: 'roles:role-venue-programming-administrator'

@@ -1,0 +1,130 @@
+# Skills register — Telecommunications (CR-DEA-SKL-01)
+industry: telecom
+title: Telecommunications
+skills:
+  - id: 'skills:skill-5g-core-network'
+    kind: domain-capability
+  - id: 'skills:skill-5g-core-network-operations'
+    kind: domain-operations
+  - id: 'skills:skill-bss'
+    kind: domain-capability
+  - id: 'skills:skill-bss-operations'
+    kind: domain-operations
+  - id: 'skills:skill-cell-site-deployment'
+    kind: domain-capability
+  - id: 'skills:skill-cell-site-deployment-operations'
+    kind: domain-operations
+  - id: 'skills:skill-charging-billing-mediation'
+    kind: domain-capability
+  - id: 'skills:skill-charging-billing-mediation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-customer-field-services'
+    kind: domain-capability
+  - id: 'skills:skill-customer-field-services-operations'
+    kind: domain-operations
+  - id: 'skills:skill-edge-computing'
+    kind: domain-capability
+  - id: 'skills:skill-edge-computing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-fibre-transport'
+    kind: domain-capability
+  - id: 'skills:skill-fibre-transport-operations'
+    kind: domain-operations
+  - id: 'skills:skill-fixed-wireless-access'
+    kind: domain-capability
+  - id: 'skills:skill-fixed-wireless-access-operations'
+    kind: domain-operations
+  - id: 'skills:skill-ftth-rollout'
+    kind: domain-capability
+  - id: 'skills:skill-ftth-rollout-operations'
+    kind: domain-operations
+  - id: 'skills:skill-interconnect-roaming'
+    kind: domain-capability
+  - id: 'skills:skill-interconnect-roaming-operations'
+    kind: domain-operations
+  - id: 'skills:skill-microwave-backhaul'
+    kind: domain-capability
+  - id: 'skills:skill-microwave-backhaul-operations'
+    kind: domain-operations
+  - id: 'skills:skill-mobile-core'
+    kind: domain-capability
+  - id: 'skills:skill-mobile-core-operations'
+    kind: domain-operations
+  - id: 'skills:skill-network-inventory'
+    kind: domain-capability
+  - id: 'skills:skill-network-inventory-operations'
+    kind: domain-operations
+  - id: 'skills:skill-network-operations'
+    kind: domain-capability
+  - id: 'skills:skill-network-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-network-planning'
+    kind: domain-capability
+  - id: 'skills:skill-network-planning-operations'
+    kind: domain-operations
+  - id: 'skills:skill-network-security'
+    kind: domain-capability
+  - id: 'skills:skill-network-security-operations'
+    kind: domain-operations
+  - id: 'skills:skill-network-slicing'
+    kind: domain-capability
+  - id: 'skills:skill-network-slicing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-network-virtualization'
+    kind: domain-capability
+  - id: 'skills:skill-network-virtualization-operations'
+    kind: domain-operations
+  - id: 'skills:skill-number-portability'
+    kind: domain-capability
+  - id: 'skills:skill-number-portability-operations'
+    kind: domain-operations
+  - id: 'skills:skill-oss'
+    kind: domain-capability
+  - id: 'skills:skill-oss-operations'
+    kind: domain-operations
+  - id: 'skills:skill-private-networks'
+    kind: domain-capability
+  - id: 'skills:skill-private-networks-operations'
+    kind: domain-operations
+  - id: 'skills:skill-quality-of-service'
+    kind: domain-capability
+  - id: 'skills:skill-quality-of-service-operations'
+    kind: domain-operations
+  - id: 'skills:skill-radio-access-network'
+    kind: domain-capability
+  - id: 'skills:skill-radio-access-network-operations'
+    kind: domain-operations
+  - id: 'skills:skill-rf-spectrum'
+    kind: domain-capability
+  - id: 'skills:skill-rf-spectrum-operations'
+    kind: domain-operations
+  - id: 'skills:skill-satellite-services'
+    kind: domain-capability
+  - id: 'skills:skill-satellite-services-operations'
+    kind: domain-operations
+  - id: 'skills:skill-service-assurance'
+    kind: domain-capability
+  - id: 'skills:skill-service-assurance-operations'
+    kind: domain-operations
+  - id: 'skills:skill-submarine-cable-systems'
+    kind: domain-capability
+  - id: 'skills:skill-submarine-cable-systems-operations'
+    kind: domain-operations
+  - id: 'skills:skill-subscriber-data-management'
+    kind: domain-capability
+  - id: 'skills:skill-subscriber-data-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-telco-cloud'
+    kind: domain-capability
+  - id: 'skills:skill-telco-cloud-operations'
+    kind: domain-operations
+  - id: 'skills:skill-traffic-management'
+    kind: domain-capability
+  - id: 'skills:skill-traffic-management-operations'
+    kind: domain-operations
+counts:
+  capability: 30
+  operations: 30
+demand:
+  batch_edges: 1000
+  admitted_edges: 124
