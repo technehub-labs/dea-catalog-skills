@@ -1,0 +1,130 @@
+# Skills register — Consulting & Professional Services (CR-DEA-SKL-01)
+industry: consulting
+title: Consulting & Professional Services
+skills:
+  - id: 'skills:skill-advisory-quality'
+    kind: domain-capability
+  - id: 'skills:skill-advisory-quality-operations'
+    kind: domain-operations
+  - id: 'skills:skill-alumni-networks'
+    kind: domain-capability
+  - id: 'skills:skill-alumni-networks-operations'
+    kind: domain-operations
+  - id: 'skills:skill-business-transformation'
+    kind: domain-capability
+  - id: 'skills:skill-business-transformation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-change-management'
+    kind: domain-capability
+  - id: 'skills:skill-change-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-client-relationship-management'
+    kind: domain-capability
+  - id: 'skills:skill-client-relationship-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-consulting-enablement'
+    kind: domain-capability
+  - id: 'skills:skill-consulting-enablement-operations'
+    kind: domain-operations
+  - id: 'skills:skill-customer-experience-design'
+    kind: domain-capability
+  - id: 'skills:skill-customer-experience-design-operations'
+    kind: domain-operations
+  - id: 'skills:skill-data-analytics-advisory'
+    kind: domain-capability
+  - id: 'skills:skill-data-analytics-advisory-operations'
+    kind: domain-operations
+  - id: 'skills:skill-deal-advisory-m-a'
+    kind: domain-capability
+  - id: 'skills:skill-deal-advisory-m-a-operations'
+    kind: domain-operations
+  - id: 'skills:skill-executive-search'
+    kind: domain-capability
+  - id: 'skills:skill-executive-search-operations'
+    kind: domain-operations
+  - id: 'skills:skill-finance-advisory'
+    kind: domain-capability
+  - id: 'skills:skill-finance-advisory-operations'
+    kind: domain-operations
+  - id: 'skills:skill-human-capital-advisory'
+    kind: domain-capability
+  - id: 'skills:skill-human-capital-advisory-operations'
+    kind: domain-operations
+  - id: 'skills:skill-interim-leadership'
+    kind: domain-capability
+  - id: 'skills:skill-interim-leadership-operations'
+    kind: domain-operations
+  - id: 'skills:skill-knowledge-management'
+    kind: domain-capability
+  - id: 'skills:skill-knowledge-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-learning-development'
+    kind: domain-capability
+  - id: 'skills:skill-learning-development-operations'
+    kind: domain-operations
+  - id: 'skills:skill-managed-services'
+    kind: domain-capability
+  - id: 'skills:skill-managed-services-operations'
+    kind: domain-operations
+  - id: 'skills:skill-management-consulting'
+    kind: domain-capability
+  - id: 'skills:skill-management-consulting-operations'
+    kind: domain-operations
+  - id: 'skills:skill-operational-excellence'
+    kind: domain-capability
+  - id: 'skills:skill-operational-excellence-operations'
+    kind: domain-operations
+  - id: 'skills:skill-organisation-design'
+    kind: domain-capability
+  - id: 'skills:skill-organisation-design-operations'
+    kind: domain-operations
+  - id: 'skills:skill-practice-development'
+    kind: domain-capability
+  - id: 'skills:skill-practice-development-operations'
+    kind: domain-operations
+  - id: 'skills:skill-pricing-rate-cards'
+    kind: domain-capability
+  - id: 'skills:skill-pricing-rate-cards-operations'
+    kind: domain-operations
+  - id: 'skills:skill-proposal-bid-management'
+    kind: domain-capability
+  - id: 'skills:skill-proposal-bid-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-risk-advisory'
+    kind: domain-capability
+  - id: 'skills:skill-risk-advisory-operations'
+    kind: domain-operations
+  - id: 'skills:skill-staffing-deployment'
+    kind: domain-capability
+  - id: 'skills:skill-staffing-deployment-operations'
+    kind: domain-operations
+  - id: 'skills:skill-strategy-advisory'
+    kind: domain-capability
+  - id: 'skills:skill-strategy-advisory-operations'
+    kind: domain-operations
+  - id: 'skills:skill-supply-chain-advisory'
+    kind: domain-capability
+  - id: 'skills:skill-supply-chain-advisory-operations'
+    kind: domain-operations
+  - id: 'skills:skill-sustainability-consulting'
+    kind: domain-capability
+  - id: 'skills:skill-sustainability-consulting-operations'
+    kind: domain-operations
+  - id: 'skills:skill-talent-acquisition'
+    kind: domain-capability
+  - id: 'skills:skill-talent-acquisition-operations'
+    kind: domain-operations
+  - id: 'skills:skill-technology-advisory'
+    kind: domain-capability
+  - id: 'skills:skill-technology-advisory-operations'
+    kind: domain-operations
+  - id: 'skills:skill-thought-leadership'
+    kind: domain-capability
+  - id: 'skills:skill-thought-leadership-operations'
+    kind: domain-operations
+counts:
+  capability: 30
+  operations: 30
+demand:
+  batch_edges: 1000
+  admitted_edges: 180

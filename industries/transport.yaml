@@ -1,0 +1,126 @@
+# Skills register — Transport & Logistics (CR-DEA-SKL-01)
+industry: transport
+title: Transport & Logistics
+skills:
+  - id: 'skills:skill-airport-operations'
+    kind: domain-capability
+  - id: 'skills:skill-airport-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-aviation-safety'
+    kind: domain-capability
+  - id: 'skills:skill-aviation-safety-operations'
+    kind: domain-operations
+  - id: 'skills:skill-cold-chain-logistics'
+    kind: domain-capability
+  - id: 'skills:skill-cold-chain-logistics-operations'
+    kind: domain-operations
+  - id: 'skills:skill-customer-logistics'
+    kind: domain-capability
+  - id: 'skills:skill-customer-logistics-operations'
+    kind: domain-operations
+  - id: 'skills:skill-customs-border-clearance'
+    kind: domain-capability
+  - id: 'skills:skill-customs-border-clearance-operations'
+    kind: domain-operations
+  - id: 'skills:skill-delivery-partner-management'
+    kind: domain-capability
+  - id: 'skills:skill-delivery-partner-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-driver-management'
+    kind: domain-capability
+  - id: 'skills:skill-driver-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-fleet-maintenance'
+    kind: domain-capability
+  - id: 'skills:skill-fleet-maintenance-operations'
+    kind: domain-operations
+  - id: 'skills:skill-fleet-operations'
+    kind: domain-capability
+  - id: 'skills:skill-fleet-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-freight-forwarding'
+    kind: domain-capability
+  - id: 'skills:skill-freight-forwarding-operations'
+    kind: domain-operations
+  - id: 'skills:skill-fuel-energy-logistics'
+    kind: domain-capability
+  - id: 'skills:skill-fuel-energy-logistics-operations'
+    kind: domain-operations
+  - id: 'skills:skill-hazardous-goods-transport'
+    kind: domain-capability
+  - id: 'skills:skill-hazardous-goods-transport-operations'
+    kind: domain-operations
+  - id: 'skills:skill-last-mile-delivery'
+    kind: domain-capability
+  - id: 'skills:skill-last-mile-delivery-operations'
+    kind: domain-operations
+  - id: 'skills:skill-logistics-networks'
+    kind: domain-capability
+  - id: 'skills:skill-logistics-networks-operations'
+    kind: domain-operations
+  - id: 'skills:skill-maritime-crewing'
+    kind: domain-capability
+  - id: 'skills:skill-maritime-crewing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-mobility-as-a-service'
+    kind: domain-capability
+  - id: 'skills:skill-mobility-as-a-service-operations'
+    kind: domain-operations
+  - id: 'skills:skill-parcel-sorting'
+    kind: domain-capability
+  - id: 'skills:skill-parcel-sorting-operations'
+    kind: domain-operations
+  - id: 'skills:skill-passenger-services'
+    kind: domain-capability
+  - id: 'skills:skill-passenger-services-operations'
+    kind: domain-operations
+  - id: 'skills:skill-port-terminal-operations'
+    kind: domain-capability
+  - id: 'skills:skill-port-terminal-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-rail-operations'
+    kind: domain-capability
+  - id: 'skills:skill-rail-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-rail-signalling'
+    kind: domain-capability
+  - id: 'skills:skill-rail-signalling-operations'
+    kind: domain-operations
+  - id: 'skills:skill-reverse-logistics'
+    kind: domain-capability
+  - id: 'skills:skill-reverse-logistics-operations'
+    kind: domain-operations
+  - id: 'skills:skill-route-planning'
+    kind: domain-capability
+  - id: 'skills:skill-route-planning-operations'
+    kind: domain-operations
+  - id: 'skills:skill-supply-chain-visibility'
+    kind: domain-capability
+  - id: 'skills:skill-supply-chain-visibility-operations'
+    kind: domain-operations
+  - id: 'skills:skill-track-infrastructure-maintenance'
+    kind: domain-capability
+  - id: 'skills:skill-track-infrastructure-maintenance-operations'
+    kind: domain-operations
+  - id: 'skills:skill-transport-security'
+    kind: domain-capability
+  - id: 'skills:skill-transport-security-operations'
+    kind: domain-operations
+  - id: 'skills:skill-urban-mobility'
+    kind: domain-capability
+  - id: 'skills:skill-urban-mobility-operations'
+    kind: domain-operations
+  - id: 'skills:skill-warehouse-automation'
+    kind: domain-capability
+  - id: 'skills:skill-warehouse-automation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-warehouse-operations'
+    kind: domain-capability
+  - id: 'skills:skill-warehouse-operations-operations'
+    kind: domain-operations
+counts:
+  capability: 29
+  operations: 29
+demand:
+  batch_edges: 1000
+  admitted_edges: 116

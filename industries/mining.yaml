@@ -1,0 +1,130 @@
+# Skills register — Mining & Resources (CR-DEA-SKL-01)
+industry: mining
+title: Mining & Resources
+skills:
+  - id: 'skills:skill-closure-planning'
+    kind: domain-capability
+  - id: 'skills:skill-closure-planning-operations'
+    kind: domain-operations
+  - id: 'skills:skill-coal-operations'
+    kind: domain-capability
+  - id: 'skills:skill-coal-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-community-engagement'
+    kind: domain-capability
+  - id: 'skills:skill-community-engagement-operations'
+    kind: domain-operations
+  - id: 'skills:skill-contract-mining'
+    kind: domain-capability
+  - id: 'skills:skill-contract-mining-operations'
+    kind: domain-operations
+  - id: 'skills:skill-copper-concentration'
+    kind: domain-capability
+  - id: 'skills:skill-copper-concentration-operations'
+    kind: domain-operations
+  - id: 'skills:skill-drill-blast'
+    kind: domain-capability
+  - id: 'skills:skill-drill-blast-operations'
+    kind: domain-operations
+  - id: 'skills:skill-energy-power-supply'
+    kind: domain-capability
+  - id: 'skills:skill-energy-power-supply-operations'
+    kind: domain-operations
+  - id: 'skills:skill-environmental-compliance'
+    kind: domain-capability
+  - id: 'skills:skill-environmental-compliance-operations'
+    kind: domain-operations
+  - id: 'skills:skill-exploration-drilling'
+    kind: domain-capability
+  - id: 'skills:skill-exploration-drilling-operations'
+    kind: domain-operations
+  - id: 'skills:skill-exploration-geology'
+    kind: domain-capability
+  - id: 'skills:skill-exploration-geology-operations'
+    kind: domain-operations
+  - id: 'skills:skill-geotechnical-engineering'
+    kind: domain-capability
+  - id: 'skills:skill-geotechnical-engineering-operations'
+    kind: domain-operations
+  - id: 'skills:skill-gold-processing'
+    kind: domain-capability
+  - id: 'skills:skill-gold-processing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-haulage-fleet'
+    kind: domain-capability
+  - id: 'skills:skill-haulage-fleet-operations'
+    kind: domain-operations
+  - id: 'skills:skill-iron-ore-operations'
+    kind: domain-capability
+  - id: 'skills:skill-iron-ore-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-metallurgy'
+    kind: domain-capability
+  - id: 'skills:skill-metallurgy-operations'
+    kind: domain-operations
+  - id: 'skills:skill-mine-automation'
+    kind: domain-capability
+  - id: 'skills:skill-mine-automation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-mine-planning'
+    kind: domain-capability
+  - id: 'skills:skill-mine-planning-operations'
+    kind: domain-operations
+  - id: 'skills:skill-mine-surveying'
+    kind: domain-capability
+  - id: 'skills:skill-mine-surveying-operations'
+    kind: domain-operations
+  - id: 'skills:skill-mine-ventilation'
+    kind: domain-capability
+  - id: 'skills:skill-mine-ventilation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-mineral-processing'
+    kind: domain-capability
+  - id: 'skills:skill-mineral-processing-operations'
+    kind: domain-operations
+  - id: 'skills:skill-occupational-health-safety'
+    kind: domain-capability
+  - id: 'skills:skill-occupational-health-safety-operations'
+    kind: domain-operations
+  - id: 'skills:skill-ore-extraction'
+    kind: domain-capability
+  - id: 'skills:skill-ore-extraction-operations'
+    kind: domain-operations
+  - id: 'skills:skill-permitting-tenements'
+    kind: domain-capability
+  - id: 'skills:skill-permitting-tenements-operations'
+    kind: domain-operations
+  - id: 'skills:skill-processing-plant-maintenance'
+    kind: domain-capability
+  - id: 'skills:skill-processing-plant-maintenance-operations'
+    kind: domain-operations
+  - id: 'skills:skill-rare-earth-operations'
+    kind: domain-capability
+  - id: 'skills:skill-rare-earth-operations-operations'
+    kind: domain-operations
+  - id: 'skills:skill-resource-modelling'
+    kind: domain-capability
+  - id: 'skills:skill-resource-modelling-operations'
+    kind: domain-operations
+  - id: 'skills:skill-site-rehabilitation'
+    kind: domain-capability
+  - id: 'skills:skill-site-rehabilitation-operations'
+    kind: domain-operations
+  - id: 'skills:skill-supply-logistics'
+    kind: domain-capability
+  - id: 'skills:skill-supply-logistics-operations'
+    kind: domain-operations
+  - id: 'skills:skill-tailings-management'
+    kind: domain-capability
+  - id: 'skills:skill-tailings-management-operations'
+    kind: domain-operations
+  - id: 'skills:skill-water-management'
+    kind: domain-capability
+  - id: 'skills:skill-water-management-operations'
+    kind: domain-operations
+counts:
+  capability: 30
+  operations: 30
+demand:
+  batch_edges: 1000
+  admitted_edges: 120
