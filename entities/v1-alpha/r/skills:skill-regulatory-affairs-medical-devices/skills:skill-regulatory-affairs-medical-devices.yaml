@@ -1,0 +1,29 @@
+id: 'skills:skill-regulatory-affairs-medical-devices'
+type: Skill
+name: Regulatory Affairs Medical Devices
+description: >-
+  Capability to apply regulatory affairs medical devices knowledge, methods and standards:
+  planning, executing and improving regulatory affairs medical devices work so that
+  roleholders can deliver and assure regulatory affairs medical devices outcomes.
+  Evidenced by recurrence across the healthcare operating models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: healthcare
+tags:
+  - domain-capability
+  - healthcare
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - healthcare
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 16
+    admitted_roles: 2
+    example_role: 'roles:role-regulatory-affairs-medical-devices-administrator'

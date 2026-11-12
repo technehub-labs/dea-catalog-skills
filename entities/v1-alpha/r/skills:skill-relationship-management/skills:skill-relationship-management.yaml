@@ -1,0 +1,24 @@
+id: 'skills:skill-relationship-management'
+type: Skill
+name: Relationship Management
+description: 'Capability to apply relationship management competencies in practice; asserted by the admitted seed role roles:relationship-manager (entities/v1-alpha/relationship-manager.yaml).'
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: cross-industry
+tags:
+  - seed-capability
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: seed-capability
+  industries:
+    - general
+  provenance:
+    type: manual
+    reference: '../dea-catalog-roles/entities/v1-alpha/relationship-manager.yaml'
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 1
+    admitted_roles: 1
+    example_role: 'roles:role-relationship-manager'

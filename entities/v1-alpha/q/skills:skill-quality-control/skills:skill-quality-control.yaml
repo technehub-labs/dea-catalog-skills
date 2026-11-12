@@ -1,0 +1,29 @@
+id: 'skills:skill-quality-control'
+type: Skill
+name: Quality Control
+description: >-
+  Capability to apply quality control knowledge, methods and standards: planning,
+  executing and improving quality control work so that roleholders can deliver and assure
+  quality control outcomes. Evidenced by recurrence across the manufacturing operating
+  models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: manufacturing
+tags:
+  - domain-capability
+  - manufacturing
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - manufacturing
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 16
+    admitted_roles: 2
+    example_role: 'roles:role-quality-control-administrator'

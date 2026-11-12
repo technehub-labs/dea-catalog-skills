@@ -1,0 +1,28 @@
+id: 'skills:skill-product-security-operations'
+type: Skill
+name: Product Security Operations
+description: >-
+  Capability to run, monitor and maintain product security environments day to day:
+  operating procedures, routine assurance and continuous improvement of product security
+  services. Evidenced by recurrence across the technology operating models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: technology
+tags:
+  - domain-operations
+  - technology
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-operations
+  industries:
+    - technology
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 16
+    admitted_roles: 16
+    example_role: 'roles:role-product-security-administrator'
