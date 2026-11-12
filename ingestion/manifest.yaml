@@ -1,0 +1,45 @@
+source: ingestion/bulk-735-skills.csv
+sha256: 1aa031237ad0b4895f16f9796decec526ca7fbe0a15e77c8eac90a957998886c
+rows: 735
+kinds:
+  domain-capability: 359
+  domain-operations: 359
+  seed-capability: 17
+slices: 12
+per_slice:
+  audit: 60
+  consulting: 60
+  entertainment: 60
+  finance: 60
+  healthcare: 60
+  legal-regulatory: 60
+  manufacturing: 60
+  media: 60
+  mining: 60
+  technology: 60
+  telecom: 60
+  transport: 58
+seed_capabilities: 17
+schema: schemas/skill.schema.json
+schema_source: 'dea-metamodel@0831aaf9d06f29ed3ba0e459fc685c726859e0c schemas/entities/skill.json'
+layout:
+  rule: dea-metaframework/docs/entity-storage-layout.md S4 (CR-MET-024)
+  form: entities/v1-alpha/<shard>/<id>/<id>.yaml
+  shard: 'first character of the record slug (`skills:skill-` prefix removed); `0-9` fallback'
+  reference_implementation: dea-catalog-metrics scripts/_catalog.py
+provenance:
+  type: discovery
+  asserted_by: catalog-seed
+  verification_status: unverified
+edges:
+  batch_required_by: 12023
+  resolvable_now: 2473
+  pending: 9550
+notes: >-
+  Rows are candidates only (lifecycle_status: proposed, version 0.1.0). Ids are
+  byte-identical to the skills: references asserted by ingestion/bulk-6000-roles.csv in
+  technehub-labs/dea-catalog-roles (718 batch-referenced skills + 17 seed capabilities
+  asserted by seed roles). Stored instance edges live on the role side (relationship_type:
+  requires, CR-2 S7/S8); the SKL -> ROL required-by view is generated, never stored.
+  Entities materialize per admission (CR-DEA-SKL-01 S4); existing instances win on id
+  collision.
