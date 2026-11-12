@@ -1,0 +1,29 @@
+id: 'skills:skill-consumer-protection-operations'
+type: Skill
+name: Consumer Protection Operations
+description: >-
+  Capability to run, monitor and maintain consumer protection environments day to day:
+  operating procedures, routine assurance and continuous improvement of consumer
+  protection services. Evidenced by recurrence across the legal-regulatory operating
+  models.
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: legal-regulatory
+tags:
+  - domain-operations
+  - legal-regulatory
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-operations
+  industries:
+    - legal-regulatory
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 17
+    admitted_roles: 2
+    example_role: 'roles:role-consumer-protection-administrator'
