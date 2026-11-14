@@ -1,0 +1,44 @@
+name: validate-catalogue
+
+# The catalogue gates (CR-SKL-CAT-01): parse, pointer, posture, CATALOG
+# freshness, schema projection + record validation, record documentation.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: catalogue
+    runs-on: ubuntu-latest
+    steps:
+      # Full history: the regenerator's last_modified field resolves from
+      # git last-commit dates per record path; a shallow checkout collapses
+      # them and the freshness gate drifts.
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set canonical git origin URL (regenerator reads it)
+        run: |
+          git remote set-url origin "https://github.com/${GITHUB_REPOSITORY}.git"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install pyyaml jsonschema referencing
+      - name: "Step 1: YAML and JSON parsing"
+        run: python3 scripts/check_parse.py
+      - name: "Step 2: Pointer present and internally consistent"
+        run: python3 scripts/check_pointer.py
+      - name: "Step 3: Records directory posture"
+        run: python3 scripts/check_record_posture.py
+      - name: "Step 4: CATALOG.yaml freshness and validation"
+        run: |
+          python3 scripts/regenerate_catalog.py --check --schema catalog-index-schema/catalog-index-schema.json
+          python3 scripts/check_catalog_index.py --strict --schema catalog-index-schema/catalog-index-schema.json
+      - name: "Step 5: Schema projection and record validation"
+        run: python3 scripts/check_schema.py
+      - name: "Step 6: Record documentation standard"
+        run: python3 scripts/check_record_documentation.py

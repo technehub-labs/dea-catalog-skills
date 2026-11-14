@@ -1,0 +1,45 @@
+# Valid fixture: exercises the normative field set, the catalogue-instance
+# layer, and one typed relationship instance. Illustrative ids only.
+id: dea:skill-example-record
+type: Skill
+name: Example Skill
+description: 'Fixture: an illustrative skill record demonstrating the canonical shape; not admitted.'
+version: 1.0.0
+lifecycle_status: active
+
+tags:
+  - fixture
+evidence:
+  sources:
+    - kind: repository-path
+      reference: schemas/fixtures/example-valid.yaml
+  rationale: 'Fixture: demonstrates the record shape; not admitted.'
+provenance:
+  ladder_passage:
+    - stage: candidate
+      date: '2026-11-02'
+      actor: Emmanuel A. Otchere
+    - stage: canonical
+      date: '2026-11-02'
+      actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+relationships:
+  - id: dea:relationship-example-skill
+    source_id: dea:skill-example-record
+    target_id: dea:example-target-record
+    relationship_type: references
+    direction: source-to-target
+    rationale: 'Fixture: illustrative typed assertion.'
+    provenance:
+      type: manual
+      asserted_by: Emmanuel A. Otchere
+      asserted_at: '2026-11-02'
+      verification_status: verified
+metadata:
+  created_at: '2026-11-02'
+  updated_at: '2026-11-02'
+  created_by: Emmanuel A. Otchere
+  status: active

@@ -1,0 +1,16 @@
+# Catalog dependency manifest (CR-SKL-CAT-01).
+#
+# Schema follows the dea-catalog-business-capabilities precedent
+# (CR-DEA-BC-05). Catalog pins move to tag pins at each target's first
+# post-reset release cut.
+
+metamodel_pin: 1.0.0
+
+# The metamodel-pointer.yaml `metamodel:` block is validated against this
+# OpenDEAM ref (validate-allocation.yml).
+root_model_pin: v0.8.0
+
+# Shared toolchain pin: regenerate_catalog.py, check_catalog_index.py,
+# check_authorship.py and the index schema are vendored from this
+# dea-metaframework release tag.
+metaframework_pin: v2.8.0

@@ -1,20 +1,32 @@
 # Metamodel Pointer — Skill
-# Auto-generated from OpenDEAM v0.3.0 (ADR-0003). Do not edit manually.
+#
+# Two consumers, two blocks (see FOUNDATIONS §5):
+#   - the top-level identity keys are consumed by the vendored
+#     regenerate_catalog.py to build CATALOG.yaml's catalog block;
+#   - the `metamodel:` allocation block is validated by
+#     dea-architecture-framework validate-against-model.yml
+#     against the pinned root-model ref (v0.8.0), and asserted
+#     locally by scripts/check_pointer.py.
+#
+# Allocation changes go through the root model, not this file.
+id: dea:catalog-skills
+name: Skill
+abbreviation: SKL
+version: 0.1.0
+status: active
+metamodel_version: 1.0.0
+owner: Emmanuel A. Otchere
+description: |
+  A capability an individual Actor possesses or must develop. Distinct from Business Capability, which belongs to the enterprise, not a person.
 metamodel:
-  version: v0.3.0
-  entity_id: dea:entity-skill
-  class_alias: SKL
-  layer: L3
   building_block: L3-people-skills-culture
-  viewer_url: "https://technehub-labs.github.io/metamodel/?entity=SKL"
-
-catalog:
-  name: Skill
-  repo: technehub-labs/dea-catalog-skills
-  status: proposed
-
+  class_alias: SKL
+  entity_id: dea:entity-skill
+  layer: L3
+  version: v0.8.0
+  viewer_url: https://technehub-labs.github.io/metamodel/?entity=SKL
 links:
   metamodel_repo: https://github.com/technehub-labs/dea-metamodel
   root_model: https://github.com/technehub-labs/dea-architecture-framework
-  viewer: "https://technehub-labs.github.io/metamodel/?entity=SKL"
+  viewer: https://technehub-labs.github.io/metamodel/?entity=SKL
   github: https://github.com/technehub-labs/dea-catalog-skills

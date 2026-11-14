@@ -1,0 +1,226 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://technehub-labs.github.io/dea-catalog-skills/schemas/entity.schema.json",
+  "metamodel_version": "1.0.0",
+  "title": "Skill (catalogue instance schema)",
+  "description": "Catalogue-instance projection of the metamodel Skill entity. The normative field set is defined by the metamodel schema; this file mirrors it and adds only the catalogue-instance layer (evidence, provenance ladder, governance). Do not widen a normative enum here to accept a value the metamodel does not define: fix the record instead. A catalogue that diverges from the metamodel is a second source of truth.",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "name",
+    "version",
+    "lifecycle_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^dea:skill-[a-z0-9-]+$",
+      "description": "OpenDEAM-local identifier, narrowed to this entity's namespace (information-classes id precedent)."
+    },
+    "type": {
+      "type": "string",
+      "const": "Skill"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 2000
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "lifecycle_status": {
+      "type": "string",
+      "enum": [
+        "proposed",
+        "planned",
+        "active",
+        "deprecated",
+        "retired"
+      ],
+      "description": "CR-3R: lifecycle state from metamodel/vocabularies/lifecycle.yaml."
+    },
+    "external_references": {
+      "type": "array",
+      "description": "CR-3P: identifiers in external systems. Never a substitute for the OpenDEA id (E004).",
+      "items": {
+        "type": "object",
+        "required": [
+          "system",
+          "identifier"
+        ],
+        "properties": {
+          "system": {
+            "type": "string"
+          },
+          "identifier": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "skill_domain": {
+      "type": "string",
+      "description": "Domain of the skill (e.g. data-engineering, facilitation)."
+    },
+    "proficiency_levels": {
+      "type": "string",
+      "description": "Proficiency scale used (e.g. foundation..expert)."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "description": "Typed relationship instances asserted by this record (metamodel relationship-instance contract; vendored locally).",
+      "items": {
+        "$ref": "relationship-instance.schema.json"
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Metamodel base-entity metadata.",
+      "properties": {
+        "created_at": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string"
+        },
+        "created_by": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "description": "Catalogue-instance layer. The source the record derives from; admission requires at least one source and a rationale.",
+      "required": [
+        "sources",
+        "rationale"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "kind",
+              "reference"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "repository-path",
+                  "system-of-record",
+                  "published-document"
+                ],
+                "description": "Kind of evidence: a path in a technehub-labs repository, an identified system of record, or a published document."
+              },
+              "reference": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "description": "Catalogue-instance layer. Ladder passage from proposal to canonical admission (FOUNDATIONS admission ladder).",
+      "required": [
+        "ladder_passage"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "ladder_passage": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "stage",
+              "date",
+              "actor"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "stage": {
+                "type": "string",
+                "enum": [
+                  "candidate",
+                  "corroborated",
+                  "reviewed",
+                  "canonical"
+                ],
+                "description": "Admission ladder stages (FOUNDATIONS D-4)."
+              },
+              "date": {
+                "type": "string",
+                "description": "ISO date (quoted in YAML so it stays a string)."
+              },
+              "actor": {
+                "type": "string",
+                "description": "Authorship-bearing field (AUT rules)."
+              }
+            }
+          }
+        }
+      }
+    },
+    "governance": {
+      "type": "object",
+      "description": "Catalogue-instance layer. Ownership and review state.",
+      "required": [
+        "functional_owner",
+        "steward",
+        "approval_status"
+      ],
+      "properties": {
+        "functional_owner": {
+          "type": "string"
+        },
+        "steward": {
+          "type": "string"
+        },
+        "approval_status": {
+          "type": "string",
+          "enum": [
+            "proposed",
+            "under_review",
+            "approved"
+          ]
+        },
+        "review_date": {
+          "type": "string"
+        },
+        "source_and_evidence": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "metamodel_source": "https://github.com/technehub-labs/dea-metamodel/blob/main/schemas/entities/skill.json",
+  "additionalProperties": false
+}

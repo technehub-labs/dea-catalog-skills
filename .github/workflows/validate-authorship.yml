@@ -1,0 +1,36 @@
+name: validate-authorship
+
+# Authorship Cardinal Rule gate (CR-BP-118; AUT-001..003). Vendored copies
+# preferred; pinned metaframework fetch as fallback.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  authorship:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch dea-metaframework (pinned; fallback for vendored copies)
+        uses: actions/checkout@v4
+        with:
+          repository: technehub-labs/dea-metaframework
+          ref: v2.8.0
+          path: .metaframework
+      - name: Prefer vendored gate copies
+        run: |
+          set -euo pipefail
+          if [ ! -f scripts/check_authorship.py ]; then
+            cp .metaframework/scripts/check_authorship.py scripts/
+          fi
+          if [ ! -f reconciliation/authorship-fields.yaml ]; then
+            cp .metaframework/reconciliation/authorship-fields.yaml reconciliation/
+          fi
+      - name: Authorship Cardinal Rule gate (AUT-001..003)
+        run: python3 scripts/check_authorship.py --strict

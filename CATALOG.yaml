@@ -1,0 +1,27 @@
+catalog:
+  abbreviation: SKL
+  counts:
+    candidates: 0
+    canonical: 0
+    entities: 0
+    open_change_requests: 0
+    research_files: 0
+    retired: 0
+  cross_cutting:
+    change_requests: change-requests/
+    classifications: classifications/
+    contributions_queue: contributions/
+    schemas: schemas/
+    validators: scripts/
+  description: 'A capability an individual Actor possesses or must develop. Distinct from Business Capability, which belongs to the enterprise, not a person.
+
+    '
+  entities: []
+  id: dea:catalog-skills
+  metamodel_version: 1.0.0
+  name: Skill
+  owner: Emmanuel A. Otchere
+  repository: https://github.com/technehub-labs/dea-catalog-skills.git
+  research_registers: []
+  status: active
+  version: 0.1.0

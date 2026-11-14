@@ -1,0 +1,10 @@
+# Invalid fixture: must FAIL validation (wrong namespace, wrong type
+# const, widened lifecycle value, non-semver version, missing evidence,
+# relationship instance without required fields).
+id: dea:information-class-not-a-skill
+type: NotSkill
+name: Example Invalid Record
+version: not-semver
+lifecycle_status: superseded
+relationships:
+  - source_id: dea:skill-example-record

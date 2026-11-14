@@ -1,0 +1,62 @@
+# Cardinal authorship-field registry (CR-BP-118b; this repo's slice).
+# Adding a new field here is a CR-level change; do not edit casually.
+# The dea-metaframework repo uses **Owner** / **Author** in TWO
+# locations: change-requests/CR-*.md (the standard CR-doc metadata)
+# and docs/*.md (status-doc metadata at the top of ratified
+# documents, e.g. docs/id-system.md, docs/entity-storage-layout.md).
+# Both globs are bounded so vendored content is invisible.
+
+fields:
+  # CR doc metadata (markdown bold-key form). Same as 118a.
+  - path: "**Owner**"                # CR doc metadata
+    file_glob: "change-requests/CR-*.md"
+    kind: "metadata"
+  - path: "**Author**"               # CR doc metadata
+    file_glob: "change-requests/CR-*.md"
+    kind: "metadata"
+
+  # Status-doc metadata (markdown bold-key form). MF-specific:
+  # ratified docs carry **Owner** at the top of the file.
+  - path: "**Owner**"                # status-doc metadata
+    file_glob: "docs/*.md"
+    kind: "metadata"
+
+  # CITATION.cff (CR-BP-118c). The citation metadata carries real authorship:
+  # an `authors:` list whose entries are `given-names` / `family-names`. It was
+  # previously ungated, so injecting a denylisted name into
+  # authors[].given-names left AUT-001..003 reporting CONFORMANT.
+  # Verified: `Coder` injected into given-names, gate still exit 0 before this
+  # registration.
+  - path: "given-names"
+    file_glob: "CITATION.cff"
+    kind: "cff-author"
+    name_part: true
+  - path: "family-names"
+    file_glob: "CITATION.cff"
+    kind: "cff-author"
+    name_part: true
+
+  # The catalog-repo template README carries an **Owner** field that every
+  # bootstrapped catalog repo inherits. It sat outside every registered glob for
+  # the same reason: not covered is not clean.
+  - path: "**Owner**"                # template README owner field
+    file_glob: "tools/catalog-repo-template/README.md"
+    kind: "metadata"
+    allow_placeholders: true
+
+allowlist:
+  - "Emmanuel A. Otchere"
+  - "TechNeHub Labs"
+
+# Agent / tool names that may never appear in an authorship-bearing field.
+# `eaojnr` is allowed as a historical record (user handle alone, no agent prefix).
+denylist:
+  - "Coder"
+  - "Agent"
+  - "Hermes"
+  - "Claude"
+  - "GPT"
+  - "Cline"
+  - "OpenAI"
+  - "MiniMax"
+  - "MiniMax-M3"
