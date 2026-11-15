@@ -1,0 +1,29 @@
+id: 'skills:skill-credit-risk-management'
+type: Skill
+name: Credit Risk Management
+description: >-
+  Capability to apply credit risk management knowledge, methods and standards: planning,
+  executing and improving credit risk management work so that roleholders can deliver and
+  assure credit risk management outcomes. Evidenced by the citing roles records in
+  technehub-labs/dea-catalog-roles (banking operating models).
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: banking
+tags:
+  - domain-capability
+  - banking
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - banking
+  provenance:
+    type: discovery
+    reference: 'roles:role-credit-risk-manager'
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 1
+    admitted_roles: 0
+    example_role: 'roles:role-credit-risk-manager'

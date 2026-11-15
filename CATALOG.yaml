@@ -7,7 +7,7 @@ catalog:
   status: proposed
   description: A capability an individual Actor possesses or must develop. Distinct from Business Capability, which belongs to the enterprise, not a person.
   counts:
-    entities: 735
+    entities: 742
     canonical: 0
   cross_cutting:
     entities: entities/
@@ -751,6 +751,11 @@ catalog:
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: '2026-11-12'
+    - id: 'skills:skill-credit-risk-management'
+      path: 'entities/v1-alpha/c/skills:skill-credit-risk-management/skills:skill-credit-risk-management.yaml'
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: '2026-11-16'
     - id: 'skills:skill-credit-risk-operations'
       path: 'entities/v1-alpha/c/skills:skill-credit-risk-operations/skills:skill-credit-risk-operations.yaml'
       lifecycle_status: proposed
@@ -861,6 +866,11 @@ catalog:
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: '2026-11-12'
+    - id: 'skills:skill-data-protection'
+      path: 'entities/v1-alpha/d/skills:skill-data-protection/skills:skill-data-protection.yaml'
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: '2026-11-16'
     - id: 'skills:skill-data-protection-privacy'
       path: 'entities/v1-alpha/d/skills:skill-data-protection-privacy/skills:skill-data-protection-privacy.yaml'
       lifecycle_status: proposed
@@ -1136,6 +1146,11 @@ catalog:
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: '2026-11-12'
+    - id: 'skills:skill-experience-management'
+      path: 'entities/v1-alpha/e/skills:skill-experience-management/skills:skill-experience-management.yaml'
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: '2026-11-16'
     - id: 'skills:skill-exploration-drilling'
       path: 'entities/v1-alpha/e/skills:skill-exploration-drilling/skills:skill-exploration-drilling.yaml'
       lifecycle_status: proposed
@@ -2546,6 +2561,11 @@ catalog:
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: '2026-11-12'
+    - id: 'skills:skill-policy-analysis'
+      path: 'entities/v1-alpha/p/skills:skill-policy-analysis/skills:skill-policy-analysis.yaml'
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: '2026-11-16'
     - id: 'skills:skill-policy-drafting'
       path: 'entities/v1-alpha/p/skills:skill-policy-drafting/skills:skill-policy-drafting.yaml'
       lifecycle_status: proposed
@@ -2676,6 +2696,11 @@ catalog:
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: '2026-11-12'
+    - id: 'skills:skill-procurement-management'
+      path: 'entities/v1-alpha/p/skills:skill-procurement-management/skills:skill-procurement-management.yaml'
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: '2026-11-16'
     - id: 'skills:skill-procurement-operations'
       path: 'entities/v1-alpha/p/skills:skill-procurement-operations/skills:skill-procurement-operations.yaml'
       lifecycle_status: proposed
@@ -2771,6 +2796,11 @@ catalog:
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: '2026-11-12'
+    - id: 'skills:skill-public-finance-management'
+      path: 'entities/v1-alpha/p/skills:skill-public-finance-management/skills:skill-public-finance-management.yaml'
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: '2026-11-16'
     - id: 'skills:skill-public-prosecution-liaison'
       path: 'entities/v1-alpha/p/skills:skill-public-prosecution-liaison/skills:skill-public-prosecution-liaison.yaml'
       lifecycle_status: proposed
@@ -3061,6 +3091,11 @@ catalog:
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: '2026-11-12'
+    - id: 'skills:skill-service-design'
+      path: 'entities/v1-alpha/s/skills:skill-service-design/skills:skill-service-design.yaml'
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: '2026-11-16'
     - id: 'skills:skill-service-provisioning'
       path: 'entities/v1-alpha/s/skills:skill-service-provisioning/skills:skill-service-provisioning.yaml'
       lifecycle_status: proposed

@@ -1,0 +1,29 @@
+id: 'skills:skill-public-finance-management'
+type: Skill
+name: Public Finance Management
+description: >-
+  Capability to apply public finance management knowledge, methods and standards:
+  planning, executing and improving public finance management work so that roleholders can
+  deliver and assure public finance management outcomes. Evidenced by the citing roles
+  records in technehub-labs/dea-catalog-roles (public-sector operating models).
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: public-sector
+tags:
+  - domain-capability
+  - public-sector
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - public-sector
+  provenance:
+    type: discovery
+    reference: 'roles:role-public-finance-manager'
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 1
+    admitted_roles: 0
+    example_role: 'roles:role-public-finance-manager'

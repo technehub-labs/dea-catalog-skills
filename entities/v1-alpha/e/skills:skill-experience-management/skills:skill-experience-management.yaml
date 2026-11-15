@@ -1,0 +1,30 @@
+id: 'skills:skill-experience-management'
+type: Skill
+name: Experience Management
+description: >-
+  Capability to apply experience management knowledge, methods and standards: planning,
+  executing and improving experience management work so that roleholders can deliver and
+  assure experience management outcomes. Evidenced by the citing roles records in
+  technehub-labs/dea-catalog-roles (health and public-sector operating models).
+version: 0.1.0
+lifecycle_status: proposed
+skill_domain: health
+tags:
+  - domain-capability
+  - healthpublic-sector
+metadata:
+  catalog: technehub-labs/dea-catalog-skills
+  metamodel_version: v0.3.0
+  skill_kind: domain-capability
+  industries:
+    - health
+    - public-sector
+  provenance:
+    type: discovery
+    reference: 'roles:role-patient-experience-manager'
+    asserted_by: catalog-seed
+    verification_status: unverified
+  required_by:
+    batch_roles: 1
+    admitted_roles: 0
+    example_role: 'roles:role-patient-experience-manager'
