@@ -43,6 +43,9 @@ SLICE_IDS = {
     "telecom", "technology", "entertainment", "media", "finance", "mining",
     "transport", "manufacturing", "healthcare", "audit", "legal-regulatory",
     "consulting",
+    # roles-taxonomy facets introduced by the skills<->roles interlock
+    # completion (CR-DEA-SKL-02): citing roles records carry these industries
+    "banking", "health", "public-sector",
 }
 KINDS = {"domain-capability", "domain-operations", "seed-capability"}
 PROV_TYPES = {"discovery", "manual"}

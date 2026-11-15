@@ -15,7 +15,7 @@ BASE = Path(__file__).parent.parent
 ENTITIES_DIR = BASE / "entities"
 ENTITIES_ROOT = ENTITIES_DIR / "v1-alpha"
 SCHEMA_PATH = BASE / "schemas" / "skill.schema.json"
-INGESTION_CSV = BASE / "ingestion" / "bulk-735-skills.csv"
+INGESTION_CSV = BASE / "ingestion" / "bulk-742-skills.csv"
 MANIFEST = BASE / "ingestion" / "manifest.yaml"
 
 ID_PREFIX = "skills:skill-"
